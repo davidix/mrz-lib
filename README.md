@@ -16,8 +16,6 @@ MRZ Generator and MRZ Checker are built according to International Civil Aviatio
 
 ###### See all 9303 ICAO docs ([البيت العربي](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/Arab/Files_ar.rst), [中文](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/Chinese/Files_zh.rst), [English](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/English/Files_en.rst), [Français](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/French/Files_fr.rst), [Русский](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/Russian/Files_ru.rst) and [Español](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/Spanish/Files_es.rst))
 
-## Fields Distribution of Official Travel Documents:
-![image](https://raw.githubusercontent.com/Arg0s1080/mrz/master/docs/Fields_Distribution.png)
 
 ## Usage Generator:
 #### TD1's (id cards):
@@ -121,8 +119,6 @@ MRZ Generator and MRZ Checker are built according to International Civil Aviatio
                                  Allows to use 3-letter-codes not included in the countries dictionary
                                  and to use document_type codes without restrictions.
                                  
-##### Passport generator example (ICAO9303 Specimen):
-![image](https://raw.githubusercontent.com/Arg0s1080/mrz/master/docs/images/passports/ICAO_Example.png)
 
 ##### TD3CodeGenerator -> str: 
 
@@ -188,7 +184,6 @@ print(code)
         compute_warnings (bool):  If it's set True, warnings compute as False
         
 ##### Id Card Checker example
-![image](https://raw.githubusercontent.com/Arg0s1080/mrz/master/docs/images/id_cards/Sweden.png)
 
 ##### TD1CodeChecker -> bool
 ```python
