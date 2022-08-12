@@ -1,6 +1,6 @@
 # MRZ Generator & MRZ Checker
 
-# this repo cloned from : https://github.com/davidix/mrz-lib
+# this repo cloned from : https://github.com/Arg0s1080/mrz
 
 ## Description:
 Machine Readable Zone generator and checker for official travel documents sizes 1, 2, 3, MRVA and MRVB (Passports, Visas, national id cards and other travel documents)
