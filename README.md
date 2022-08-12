@@ -1,6 +1,6 @@
 # MRZ Generator & MRZ Checker
 
-# this repo cloned from : https://github.com/Arg0s1080/mrz
+# this repo cloned from : https://github.com/davidix/mrz-lib
 
 ## Description:
 Machine Readable Zone generator and checker for official travel documents sizes 1, 2, 3, MRVA and MRVB (Passports, Visas, national id cards and other travel documents)
@@ -14,7 +14,7 @@ MRZ Generator and MRZ Checker are built according to International Civil Aviatio
 * [Specifications for Machine Readable Visas (MRV)](https://www.icao.int/publications/Documents/9303_p7_cons_en.pdf)
 
 
-###### See all 9303 ICAO docs ([البيت العربي](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/Arab/Files_ar.rst), [中文](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/Chinese/Files_zh.rst), [English](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/English/Files_en.rst), [Français](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/French/Files_fr.rst), [Русский](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/Russian/Files_ru.rst) and [Español](https://github.com/Arg0s1080/mrz/tree/master/docs/ICAO9303/Spanish/Files_es.rst))
+###### See all 9303 ICAO docs ([البيت العربي](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/Arab/Files_ar.rst), [中文](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/Chinese/Files_zh.rst), [English](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/English/Files_en.rst), [Français](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/French/Files_fr.rst), [Русский](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/Russian/Files_ru.rst) and [Español](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/Spanish/Files_es.rst))
 
 
 ## Usage Generator:
@@ -135,7 +135,7 @@ print(code)
     P<UTOERIKSSON<<ANNA<MARIA<<<<<<<<<<<<<<<<<<<
     L898902C36UTO7408122F1204159ZE184226B<<<<<10
 
-###### Note: See other uses in [mrz.generator examples folder](https://github.com/Arg0s1080/mrz/tree/master/examples/mrz_generator_samples)
+###### Note: See other uses in [mrz.generator examples folder](https://github.com/davidix/mrz-lib/tree/master/examples/mrz_generator_samples)
 
 ## Usage Checker:
 #### TD1's (id cards):
@@ -199,7 +199,7 @@ print(result)
 ##### Output
     True
 
-###### Note: See other uses in [mrz.checker examples folder](https://github.com/Arg0s1080/mrz/tree/master/examples/mrz_checker_samples)
+###### Note: See other uses in [mrz.checker examples folder](https://github.com/davidix/mrz-lib/tree/master/examples/mrz_checker_samples)
 
 
 ##### Fields extraction example (valid for td1, td2, td3 and visas)
@@ -222,7 +222,7 @@ print(get_country(fields.country))
 MARISA OSPELT BECK
 Liechtenstein
 ```
-###### Note: See other uses in [mrz.checker examples folder](https://github.com/Arg0s1080/mrz/tree/master/examples/mrz_checker_samples) and [this issue](https://github.com/Arg0s1080/mrz/issues/6)
+###### Note: See other uses in [mrz.checker examples folder](https://github.com/davidix/mrz-lib/tree/master/examples/mrz_checker_samples) and [this issue](https://github.com/davidix/mrz-lib/issues/6)
 
 
 ## Installation:
@@ -232,7 +232,7 @@ Liechtenstein
     
 #### Cloning this repo (It may not work fine):
 ```
-git clone https://github.com/Arg0s1080/mrz.git
+git clone https://github.com/davidix/mrz-lib.git
 cd mrz
 sudo python3 setup.py install
 ```
@@ -263,7 +263,7 @@ sudo python3 setup.py install
 - MRZ is a Python module to be used as library in other programs. So, its intended audience are developers. 
 **MRZ will never have a user interface nor will have CLI support.** (Of course.. if someone wants, can do it)
 However, **if someone is curious and wants to generate or check the mrz code of a passport or ID card, 
-can modify any of the [examples](https://github.com/Arg0s1080/mrz/tree/master/examples)**.
+can modify any of the [examples](https://github.com/davidix/mrz-lib/tree/master/examples)**.
 
 - Right now I am very busy and have very little free time. Please, before creating an issue or consulting by email, 
-read [this issue](https://github.com/Arg0s1080/mrz/issues/31)
+read [this issue](https://github.com/davidix/mrz-lib/issues/31)
