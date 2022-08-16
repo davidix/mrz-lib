@@ -15,7 +15,6 @@ MRZ Generator and MRZ Checker are built according to International Civil Aviatio
 * [Specifications for Machine Readable Visas (MRV)](https://www.icao.int/publications/Documents/9303_p7_cons_en.pdf)
 
 
-###### See all 9303 ICAO docs ([البيت العربي](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/Arab/Files_ar.rst), [中文](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/Chinese/Files_zh.rst), [English](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/English/Files_en.rst), [Français](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/French/Files_fr.rst), [Русский](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/Russian/Files_ru.rst) and [Español](https://github.com/davidix/mrz-lib/tree/master/docs/ICAO9303/Spanish/Files_es.rst))
 
 
 ## Usage Generator:
